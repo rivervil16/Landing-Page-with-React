@@ -4,12 +4,13 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
-const Home = () => {
+const Navbar = () => {
 	return (
 		<div className="text-center">
-			<p>Home</p>
+				<p>Navbar
+			</p>
 		</div>
 	);
 };
 
-export default Home;
+export default Navbar;
