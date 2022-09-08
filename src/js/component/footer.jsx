@@ -6,7 +6,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 //create your first component
 const Footer = () => {
 	return (
-		<div class="card-footer text-muted">
+		<div className="card-footer text-muted">
     Copyright @ your website 2022
   </div>
 	);

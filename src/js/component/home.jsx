@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "./navbar.jsx";
 //include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
 import Jumbotron from "./jumbotron.jsx";
 import Cards from "./cards.jsx";
 import Footer from "./footer.jsx"
@@ -12,10 +11,12 @@ const Home = () => {
 		<div className="text-center">
 			<Navbar /> 
 			<Jumbotron />
-			{/* <Cards />
+			<div className="d-flex">
 			<Cards />
 			<Cards />
-			<Cards /> */}
+			<Cards />
+			<Cards />
+			</div>
 			<Footer />
 		</div>
 	);
