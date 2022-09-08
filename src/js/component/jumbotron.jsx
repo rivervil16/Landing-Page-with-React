@@ -6,7 +6,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 //create your first component
 const Jumbotron = () => {
 	return (
-        <div className="jumbotron">
+        <div className="jumbotron container bg-light">
   <h1 className="display-4">A Warm Welcome!</h1>
   <p className="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora beatae alias laborum animi quasi quidem nulla. Numquam, earum facere exercitationem odio eaque suscipit ad molestiae tempore error quia. Provident, debitis.</p>
   <p className="lead">

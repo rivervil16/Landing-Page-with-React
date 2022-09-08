@@ -2,8 +2,9 @@ import React from "react";
 
 //create your first component
 const Navbar = () => {
-	return (<nav className="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
-			<div className="container-fluid">
+	return (
+	<nav className="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
+			<div className="container">
 				<a className="navbar-brand ml-auto text-white" href="#">
 					Start Bootstrap
 				</a>
